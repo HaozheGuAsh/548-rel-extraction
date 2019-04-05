@@ -1,6 +1,6 @@
 import abc
 
-class RelationExtractionModel():
+class RelationExtractionModel(abc.ABC):
 
 	def __init__(self):
 		pass
