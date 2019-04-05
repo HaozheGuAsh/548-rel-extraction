@@ -5,19 +5,9 @@ class RelationExtractionModel(abc.ABC):
 	def __init__(self):
 		pass
 
-
-	# Any shared data strcutures or methods should be defined as part of the parent class.
-	# KRC. eg tokenize(), read_evaluation_dataset()
-	
-	# A list of shared arguments should be defined for each of the following methods and replace (or precede) *args.
-	
-	# The output of each of the following methods should be defined clearly and shared between all methods implemented by members of the group. 
-
-
-
 	@classmethod
 	@abc.abstractmethod
-	def read_dataset(self,InputFile, *args, **kwargs):  # <--- common ACROSS ALL classes
+	def read_dataset(self,InputFile, *args, **kwargs):  # <--- common interface across all classes 
 		"""
 		Read's a dataset to be used for training
 
@@ -26,7 +16,6 @@ class RelationExtractionModel(abc.ABC):
 
 		Returns: (optional)
 			data from file
-
 		"""
 		pass
 
