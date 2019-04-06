@@ -6,7 +6,7 @@ A repository which contains files/scripts for USC spring'19 CSCI 548 project imp
     2. SemEval 2010
     3. DDI 2013
    
-# Evaluation Metric
+# Evaluation Metrics
     1. Precision
     2. Recall 
     3. F1 Score
