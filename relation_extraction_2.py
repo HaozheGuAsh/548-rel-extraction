@@ -1,8 +1,8 @@
 #Python 2.x
 
-from abc import ABC, abstractmethod
+from abc import ABCMeta, abstractmethod
 
-class RelationExtractionModel(ABC):
+class RelationExtractionModel(ABCMeta):
 
 	def __init__(self):
 		pass
