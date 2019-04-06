@@ -3,7 +3,7 @@ A repository which contains files/scripts for USC spring'19 CSCI 548 project imp
 
 # Benchmark Datasets
     1. NYT 
-    2. SemEval 2010
+    2. SemEval 2010 task8
     3. DDI 2013
    
 # Evaluation Metrics
